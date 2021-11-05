@@ -88,7 +88,7 @@ The proxmark firmware and client should be matching every time. But as I have te
 ### IMPORTANT
 
 The file 'pmx3_read_keys_from_desfire.py' in the client folder of the repo, need to be modified accordly. 
-In line 22 the variable self.pm3_path must be change to the user path where the proxmark client have been dowloaded. 
+In line 22 the variable self.pm3_path must be changed to the user path where the proxmark client have been dowloaded. 
 
 <br>
 ###  - Kali linux ONLY -
