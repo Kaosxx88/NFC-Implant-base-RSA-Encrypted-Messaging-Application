@@ -88,7 +88,7 @@ The proxmark firmware and client should be matching every time. But as I have te
 ### IMPORTANT
 
 The file 'pmx3_read_keys_from_desfire.py' in the client folder of the repo, need to be modified accordly. 
-In line 22 the variable self.pm3_path must be changed to the user path where the proxmark client have been dowloaded. 
+In line 22 the variable self.pm3_path must be change to the user path where the proxmark client have been dowloaded. 
 
 <br>
 ###  - Kali linux ONLY -
@@ -212,32 +212,32 @@ The Files tab allow the user to select the key set from the system. Once button 
   <img width="450" height="300" src="https://github.com/Kaosxx88/NFC-Implant-base-RSA-Encrypted-Messaging-Application/blob/main/screenshots/chat_1.png?raw=true">
 </p>
 
-1 - Application logo
-2 - Name and version of the application.
- 3 - Logged user nickname.
-4 - Entry to search for new users
-5 - Button to send the request to the server to search the new user.
-6 - Label that shows an intro message to the user with instruction
-7 - Instruction label
+1) Application logo
+2) Name and version of the application.
+3) Logged user nickname.
+4) Entry to search for new users
+5) Button to send the request to the server to search the new user.
+6) Label that shows an intro message to the user with instruction
+7) Instruction label
 <p align="center">
   <img width="450" height="300" src="https://github.com/Kaosxx88/NFC-Implant-base-RSA-Encrypted-Messaging-Application/blob/main/screenshots/chat_2.png?raw=true">
 </p>
 
-1 - The top chat label will show the selected chat user destination.
-2 - The delete button, delete all the conversation with the user from the server.
-3 - The search button, search in the chat any corresponding text.
-4 - The message entry allows the user to write the message.
-5 - The left user list shows all the linked user and conversation in the account
-6 - The send button sends the message and clears the message entry.
-7 - The Chatbox will display the conversation.
-8 - The clear button will clear the message entry box.
+1) The top chat label will show the selected chat user destination.
+2) The delete button, delete all the conversation with the user from the server.
+3) The search button, search in the chat any corresponding text.
+4) The message entry allows the user to write the message.
+5) The left user list shows all the linked user and conversation in the account
+6) The send button sends the message and clears the message entry.
+7) The Chatbox will display the conversation.
+8) The clear button will clear the message entry box.
 
 <p align="center">
   <img width="450" height="300" src="https://github.com/Kaosxx88/NFC-Implant-base-RSA-Encrypted-Messaging-Application/blob/main/screenshots/chat_3.png?raw=true">
 </p>
 
-- 1) New message notification
-- 2) New user on the user list  
+1) New message notification
+2) New user on the user list  
 
 <br>
 
@@ -285,13 +285,13 @@ The above picture shows the concept flow of the N.I.R.E.M.A. application. The ut
   <img  src="https://github.com/Kaosxx88/NFC-Implant-base-RSA-Encrypted-Messaging-Application/blob/main/screenshots/database_chat_history.png?raw=true">
 
 The above image show the structure of the server database in which the message are stored. The structure is former of:
-1 - Message number
-2 - Sender Nickname
-3 - Recipient Nickname
-4 - Message encrypted with the sender public key
-5 - Message sign
-6 - Message encrypted with the recipient publick key 
-7 -  Message sign
+1) Message number
+2) Sender Nickname
+3) Recipient Nickname
+4) Message encrypted with the sender public key
+5) Message sign
+6) Message encrypted with the recipient publick key 
+7) Message sign
 
 <br>
 
